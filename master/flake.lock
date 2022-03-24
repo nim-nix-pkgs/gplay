@@ -5,12 +5,10 @@
         "bearssl-master": "bearssl-master",
         "flakeNimbleLib": [
           "jwt",
-          "jwt-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "jwt",
-          "jwt-master",
           "nixpkgs"
         ]
       },
@@ -33,13 +31,11 @@
       "inputs": {
         "flakeNimbleLib": [
           "jwt",
-          "jwt-master",
           "bearssl",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "jwt",
-          "jwt-master",
           "bearssl",
           "nixpkgs"
         ],
@@ -75,11 +71,11 @@
       },
       "locked": {
         "dir": "v1_5_23",
-        "lastModified": 1648152293,
-        "narHash": "sha256-chQE0VNTamd11xDkYOyirPQH/0ADwtU4ECpEJIUkitU=",
+        "lastModified": 1648162991,
+        "narHash": "sha256-tV9CXtg3ZHM7zTScu0UCNZnlwQJURcnUkm9LYfSlv70=",
         "owner": "nim-nix-pkgs",
         "repo": "cligen",
-        "rev": "5add6a32b82f4fd6649c8a5319e628e69cde5669",
+        "rev": "23f12e283a0b2865b94487e828465a5e43eff0bb",
         "type": "github"
       },
       "original": {
@@ -113,38 +109,11 @@
     },
     "jwt": {
       "inputs": {
-        "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "jwt-master": "jwt-master",
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648081155,
-        "narHash": "sha256-Cx/KXA8YMIsRPMYVX8MGWBVEBWUfy0d4pDiEwhR8wAY=",
-        "owner": "nim-nix-pkgs",
-        "repo": "jwt",
-        "rev": "caec0e3b43b0ed6d2b3509f5f814244b20c8b0e3",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "jwt",
-        "type": "github"
-      }
-    },
-    "jwt-master": {
-      "inputs": {
         "bearssl": "bearssl",
         "flakeNimbleLib": [
-          "jwt",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
-          "jwt",
           "nixpkgs"
         ],
         "src-jwt-master": "src-jwt-master"
@@ -275,14 +244,12 @@
       "inputs": {
         "flakeNimbleLib": [
           "jwt",
-          "jwt-master",
           "bearssl",
           "bearssl-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "jwt",
-          "jwt-master",
           "bearssl",
           "bearssl-master",
           "nixpkgs"
