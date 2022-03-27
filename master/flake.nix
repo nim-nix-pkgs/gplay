@@ -11,6 +11,7 @@
   inputs.src-gplay-master.ref   = "refs/heads/master";
   inputs.src-gplay-master.owner = "yglukhov";
   inputs.src-gplay-master.repo  = "gplay";
+  inputs.src-gplay-master.dir   = "";
   inputs.src-gplay-master.type  = "github";
   
   inputs."jwt".owner = "nim-nix-pkgs";
