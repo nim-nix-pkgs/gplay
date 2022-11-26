@@ -311,11 +311,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1669417776,
-        "narHash": "sha256-wvmLCKOKgE8mdo9LE4EbrxRbaJV6gzVd0UjD2XFXrlA=",
+        "lastModified": 1669432443,
+        "narHash": "sha256-FnAk/edYHsgm4GkxStbZoFuRUfZXThQf3Mnp/R2dZxA=",
         "owner": "nim-nix-pkgs",
         "repo": "gplay",
-        "rev": "48fa13a4b33352d74af303d417fce7f542fd3b19",
+        "rev": "6eafd579978d6c4065ba518c14f9e52dd8220432",
         "type": "github"
       },
       "original": {
